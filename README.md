@@ -132,7 +132,13 @@ python training/build_rl_dataset.py
 python training/train_dqn.py
 🎥 Demo Video
 
-👉 ![Watch the Demo Video](https://img.youtube.com/vi/3Z_-eeOmJmU/0.jpg)](https://youtu.be/3Z_-eeOmJmU)
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/3Z_-eeOmJmU">
+    <img src="https://img.youtube.com/vi/3Z_-eeOmJmU/maxresdefault.jpg" width="700">
+  </a>
+</p>
 
 
 🌍 Real-World Impact
