@@ -48,7 +48,7 @@ Healthcare systems today face critical challenges:
 
 ## 🏗️ System Architecture
 
-
+```
 Symptoms (Text)
 ↓
 Symptom Model (ML)
@@ -64,7 +64,7 @@ Safety Rules Layer
 Reinforcement Learning (DQN)
 ↓
 Final Triage Decision
-
+```
 
 ---
 
@@ -105,31 +105,51 @@ We developed a fully functional web application using **Streamlit**:
 ```bash
 git clone https://github.com/shariar41/HealNet-AI-Triage-System.git
 cd HealNet-AI-Triage-System
-2. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Run the app
+```
+
+### 3. Run the app
+```bash
 streamlit run app/app.py
-📂 Dataset Setup
+```
+
+---
+
+## 📂 Dataset Setup
 
 Due to size limitations, datasets are not included.
 
 Download and place them in:
 
+```bash
 data/raw/
-Required datasets:
-Mendeley Disease-Symptom Dataset
-Symptom2Disease Dataset
-Chest X-ray Pneumonia Dataset (Kaggle)
-⚙️ Model Training (Optional)
+```
+
+### Required datasets:
+- Mendeley Disease-Symptom Dataset  
+- Symptom2Disease Dataset  
+- Chest X-ray Pneumonia Dataset (Kaggle)  
+
+---
+
+## ⚙️ Model Training (Optional)
 
 To retrain models:
 
+```bash
 python training/preprocess_mendeley_data_v2.py
 python training/build_symptom2disease_features_v2.py
 python training/train_symptom_model_v2.py
 python training/train_image_model.py
 python training/build_rl_dataset.py
 python training/train_dqn.py
+```
+
+---
 
 ## 🎥 Demo Video
 
@@ -139,29 +159,39 @@ python training/train_dqn.py
   </a>
 </p>
 
+---
 
-🌍 Real-World Impact
+## 🌍 Real-World Impact
 
 HealNet can be applied to:
 
-Telehealth platforms
-Emergency pre-screening
-Rural and underserved healthcare
-Early detection of critical diseases
+- Telehealth platforms  
+- Emergency pre-screening  
+- Rural and underserved healthcare  
+- Early detection of critical diseases  
 
 👉 Helps reduce hospital overload and improve patient outcomes.
 
-🏆 Why HealNet Stands Out
-✅ Multimodal AI (ML + CV + RL)
-✅ Safety-first decision design
-✅ Real-world datasets
-✅ Fully working MVP
-✅ Strong visual and analytical validation
-👨‍💻 Team
+---
 
-HealNet Innovators
+## 🏆 Why HealNet Stands Out
 
-Shariar Islam Saimon
-📜 License
+- ✅ Multimodal AI (ML + CV + RL)  
+- ✅ Safety-first decision design  
+- ✅ Real-world datasets  
+- ✅ Fully working MVP  
+- ✅ Strong visual and analytical validation  
+
+---
+
+## 👨‍💻 Team
+
+**HealNet Innovators**
+
+- Shariar Islam Saimon  
+
+---
+
+## 📜 License
 
 This project is for academic and hackathon purposes.
