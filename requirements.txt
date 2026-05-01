@@ -1,0 +1,11 @@
+pip==23.2.1
+torch
+torchvision
+torchaudio
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+pillow
+streamlit

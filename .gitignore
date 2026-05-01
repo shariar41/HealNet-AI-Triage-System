@@ -1,0 +1,12 @@
+data/raw/
+data/processed/
+checkpoints/
+outputs/
+*.pt
+*.joblib
+*.csv
+__pycache__/
+*.pyc
+.venv/
+IEEEContestENV/
+.vs/
