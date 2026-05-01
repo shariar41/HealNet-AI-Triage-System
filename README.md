@@ -130,7 +130,6 @@ python training/train_symptom_model_v2.py
 python training/train_image_model.py
 python training/build_rl_dataset.py
 python training/train_dqn.py
-🎥 Demo Video
 
 ## 🎥 Demo Video
 
