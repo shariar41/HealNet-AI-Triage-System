@@ -148,6 +148,15 @@ python training/train_image_model.py
 python training/build_rl_dataset.py
 python training/train_dqn.py
 ```
+---
+
+## Application Interface
+<p align="center">
+  <img src="https://github.com/shariar41/HealNet-AI-Triage-System/blob/main/outputs/figures/1.jpg" width="700">
+  <img src="https://github.com/shariar41/HealNet-AI-Triage-System/blob/main/outputs/figures/2.jpg" width="700">
+  <img src="https://github.com/shariar41/HealNet-AI-Triage-System/blob/main/outputs/figures/xray_val_sample_predictions.png" width="700">
+  
+</p>
 
 ---
 
